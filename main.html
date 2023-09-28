@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Assignment 2</title>
+
+        <!--To Get Obitron font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assignment-02.css">
+    </head>
+
+    <body>
+        <div class="header">
+            <h1>SIMON SAYS</h1>
+        </div>
+        
+        <div class="background-circle-wrapper">
+            <div id="circle">
+                <div id="backTopLeft">
+                    <button class="fourButtons" id="frontTopLeft"></button> <!----GREEN BUTTON-->
+                </div>
+                <div id="backTopRight">
+                    <button class="fourButtons" id="frontTopRight"></button> <!--RED BUTTON-->
+                </div>
+
+                <button id="highestScore">00</button>
+                <button id="start">START</button>
+                <button id="progress">00</button>
+                <div class="isOnLight"></div>
+
+                <div id="backBottomLeft">
+                    <button class="fourButtons" id="frontBottomLeft"></button> <!--YELLOW BUTTON-->
+                </div>
+                <div id="backBottomRight">
+                    <button class="fourButtons" id="frontBottomRight"></button> <!--BLUE BUTTON-->
+                </div>
+            </div>
+        </div>
+        <script src="assignment-02.js"></script>
+    </body>
+</html>

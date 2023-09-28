@@ -1,0 +1,147 @@
+.background-circle-wrapper {
+    position: relative;
+    text-align: center;
+}
+.header{
+    text-align: center;
+    font-family: 'Orbitron';
+}
+
+/*Background Circle*/
+#circle { 
+    width: 300px;
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.884);
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+    border-style: solid;
+    border-width: 10px;
+    margin-top: 130px;
+}
+
+/*styling for start button*/
+#start{ 
+    position: absolute;
+    font-size: 1em;
+    font-family: 'Orbitron';
+    background-color: lightgray;
+    top: 40%;
+    left: 35%;
+    cursor: pointer;
+}
+
+/*displays all-time highest score*/
+#highestScore{
+    position: absolute;
+    font-size: 1em;
+    font-family: 'Orbitron';
+    background-color: lightgray;
+    top: 40%;
+    left: 20%;
+}
+
+/*displays progress for last game*/
+#progress{
+    position: absolute;
+    font-size: 1em;
+    font-family: 'Orbitron';
+    background-color: lightgray;
+    top: 40%;
+    left: 62%;
+}
+
+/*game status indicator light*/
+.isOnLight{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: rgb(226, 26, 26);
+    border-radius: 50%;
+    top: 60%;
+    left: 46%;
+}
+
+/*------Background cirlces for the 4 colours----*/
+#backTopLeft{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 50%;
+    top: -30%;
+    left: -30%;
+}
+#backTopRight{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 50%;
+    top: -30%;
+    left: 60%;
+}
+#backBottomLeft{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 50%;
+    top: 60%;
+    left: -30%;
+}
+#backBottomRight{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 50%;
+    top: 60%;
+    left: 60%;
+}
+
+/*------ 4 colours buttons----*/
+#frontTopLeft{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background-color: rgba(24, 156, 24, 0.781);
+    border-radius: 50%;
+    top: 5%;
+    left: 5%;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+#frontTopRight{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background-color: rgb(201, 45, 45);
+    border-radius: 50%;
+    top: 5%;
+    left: 5%;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+#frontBottomLeft{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background-color: rgba(231, 231, 22, 0.842);
+    border-radius: 50%;
+    top: 5%;
+    left: 5%;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+#frontBottomRight{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    background-color: rgba(8, 8, 151, 0.637);
+    border-radius: 50%;
+    top: 5%;
+    left: 5%;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
