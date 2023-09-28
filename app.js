@@ -1,6 +1,3 @@
-/*I used the following link as a refernce for my code
-https://www.youtube.com/watch?v=n_ec3eowFLQ */
-
 let order = []; //will keep track of the order of the lights' flashes
 let playerOrder = [];  //will keep track of the order the player is pressing the lights in
 let flash;
